@@ -1,0 +1,535 @@
+* {
+	padding:0px;
+	margin:0px;
+}
+html{
+	font-family: sans-serif;
+}
+.container-header {
+	background: url(https://s8.uupload.ir/files/hearder_fjpu.jpg);
+	width:100%;
+	height:100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:row;
+	padding-bottom:10px;
+}
+.all-header{
+	background-color:#fff;
+	width:50rem;
+	height:30rem;
+	border-radius:3rem;
+	padding:2rem;
+}
+.header {
+	display:flex;
+	justify-content:space-between;
+}
+.logo-site {
+	margin-top:-3px;
+}
+
+.meno-container{
+	
+}
+ul{
+	list-style-type:none;
+	
+}
+li{
+	display:inline;
+	font-size:0.9rem;
+	margin:5px;
+}
+#qwer {
+	margin:2px;
+}
+li:hover{
+	color:#ffc904;
+	border-bottom:2px solid #ffc904;
+	cursor:pointer;
+	transition:0.2s;
+}
+.mian-container{
+	display:flex;
+	flex-direction:row-reverse;
+	justify-content:center;
+	align-items:center;
+	width:100%;
+	height:29rem;
+}
+.tanzimi{
+}
+.img-main{
+	
+}
+.img-main-org{
+	width:20rem;
+	margin-top:-10rem;
+}
+.container-left{
+	display:flex;
+	flex-direction:column;
+	height:25rem;
+	justify-content:space-evenly;
+	margin-left:0.5rem;
+}
+.title-main-site{
+	margin-top:40px;
+}
+.title-gold{
+	font-size:1.8rem;
+	margin-bottom:5px;
+	color:#fbca47;
+}
+.title-black{
+	font-size:3rem;
+}
+.text-caption{
+	line-height:1.7;
+}
+.button-content{
+	margin:10px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.bottun-down{
+	width:11rem;
+	border:none;
+	border-radius:5px;
+	BACKGROUND-COLOR:#17094c;
+}
+.img-button{
+	display:inline;
+	
+}
+.title-bottun{
+	display:inline;
+	font-size:0.9rem;
+	color:white;
+	margin-left:3px;
+}
+.bottun-down:hover{
+	background-color:#fbca47;
+	cursor:pointer;
+	transition:0.3s;
+}
+/*ABOUT STYLE START*/
+.container-about{
+	background-image:url(https://s8.uupload.ir/files/abo_bg_voc0.jpg);
+	background-size:contain;
+	display:flex;
+	padding-top:2.5rem;
+	padding-bottom:2.5rem;
+	justify-content:center;
+	align-items:center;
+	
+}
+
+.img-about-org{
+	width:23rem;
+	margin-right:3rem;
+}
+.text-about{
+	height:25REM;
+	display:grid;
+	grid-template-rows:2rem 4rem 7rem 2rem;
+	grid-template-columns:35rem;
+	margin-top:3.2rem;
+}
+.little-title{
+	color:#fbca47;
+	font-weight:700;
+}
+.welcome-title{
+	color:#000;
+	font-weight:500;
+	font-size:2.1rem;
+	margin-top:0.5rem;
+}
+.discription{
+	color:#4a4a49;
+	font-size:1.1rem;
+	line-height:2rem;
+}
+.button-about{
+	border:none;
+	border-radius:0.5rem;
+	width:10rem;
+	height:3rem;
+	color:white;
+	background-color:#17094c;
+	margin-top:2rem;
+	font-weight:500;
+	font-size:1rem;
+}
+.button-about:hover{
+	background-color:#fbca47;
+	cursor:pointer;
+	transition:0.3s;
+}
+/*start services*/
+.services{
+	background-image:url(https://s8.uupload.ir/files/service_btvd.jpg);
+	padding:1rem;
+	padding-bottom:2rem;
+}
+.titles-services{
+	width:100%;
+	height:7rem;
+	padding-top:5rem;
+}
+.small-title-services{
+	color:#fbca47;
+	font-weight:600;
+	margin-bottom:1rem;
+}
+.big-title-servieces{
+	color:white;
+	font-size:1.1rem;
+}
+.option-services{
+	display:flex;
+	flex-direction:row;
+	color:white;
+	width:100%;
+	justify-content:space-evenly;
+}
+.option {
+	width:30rem;
+	text-align:center;
+}
+.safe-services{
+	
+}
+.logo-services1{
+	margin:2rem;
+}
+.logo-services2{
+	margin:2rem;
+}
+.logo-services3{
+	margin:2rem;
+}
+.logo-services4{
+	margin:2rem;
+}
+.title-of-option{
+	font-size:1.8rem;
+	margin-bottom:1rem;
+}
+.discription-of-option{
+	font-size:1.1rem;
+	line-height:2rem;
+	font-weight:400;
+}
+.button-of-option{
+	padding:1rem;
+	border:solid 1px white;
+	background-image:url("https://s8.uupload.ir/files/service_btvd.jpg");
+	background-size:cover;
+	width:10rem;
+	border-radius:3px;
+	color:white;
+	font-size:1rem;
+	margin:2rem;
+}
+.mobile-services{
+	
+}
+.wallet-services{
+	
+}
+.support-services{
+	
+}
+.button-of-option:hover{
+	border:1px solid #fbca47;
+	color:#fbca47;
+	transition:0.3s;
+	cursor:pointer;
+}
+.title-of-option:hover{
+	color:#fbca47;
+	transition:0.3s;
+	cursor:pointer;
+}
+/*start information*/
+.information-active{
+	background-image:url("https://s8.uupload.ir/files/bg_qha0.jpg");
+	background-size:contain;
+	background-repeat:no-repeat;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	width:100%;
+	padding-top:7rem;
+}
+.infotop{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	width:100%;
+	text-align:center;
+	margin-bottom:3rem;
+}
+.infobottom{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	width:100%;
+	text-align:center;
+}
+.img-infotop{
+	width:63%;
+}
+.button-info{
+	color:white;
+	border:none;
+	border-radius:0.5rem;
+	padding:1rem 2.3rem;
+	font-size:1.1rem;
+	margin:4rem;
+	background-image:url("https://s8.uupload.ir/files/service_btvd.jpg");
+	background-size:cover;
+}
+.little-info{
+	margin-bottom:1.6rem;
+	color:#fbca47;
+	font-weight:600;
+	font-size: 1.2rem;
+}
+.title-info{
+	font-weight:500;
+	font-size:2.3rem;
+	line-height:3.7rem;
+	margin-bottom:3rem;
+}
+.button-info:hover{
+	color:#fbca47;
+	transition:0.3s;
+	cursor:pointer;
+}
+/*start subscribe*/
+.subscribe {
+	background-image:url("https://s8.uupload.ir/files/sub_bg_0p7.jpg");
+	width:100%;
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	padding-top: 12rem;
+    padding-bottom: 12rem;
+
+}
+
+.h1-subscribe{
+	color: white;
+    /* font-size: 2.2rem; */
+    font-size: 2.1rem;
+    margin: 1rem;
+}
+.p-subscribe{
+	text-align: center;
+    color: white;
+    line-height: 1.8rem;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+.input-subscribe{
+	border: none;
+    /* padding: 2rem; */
+    /* padding: 1.6rem; */
+    /* padding: 1.7rem 4rem; */
+    border-radius: 2.5rem;
+    /* font-size: 1.4rem; */
+    /* text-align: center; */
+    font-size: 1.1rem;
+    padding: 0.8rem;
+    padding-right: 15rem;
+}
+.button-subscribe{
+	border:2px solid #237800;
+	border-radius: 4rem;
+    padding: 0.8rem 3rem;
+    font-size: 1rem;
+    color:white;
+	background-color:#efb721;
+	margin-top:1rem;
+}
+.input-subscribe:focus{
+	outline:none;
+}
+/*start clients*/
+.clients{
+	padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.clients-top{
+	display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.face-clients{
+	
+}
+.h4-tag-clients{
+	font-size: 1.3rem;
+    font-weight: 500;
+    font-size: 1.4rem;
+    padding-top: 2rem;
+    border-bottom: 4px solid #fbca47;
+    padding-bottom: 0.3rem;
+    margin-bottom: 2rem;
+}
+.discription-clients{
+	font-size: 1.215rem;
+    line-height: 2.3rem;
+    margin-bottom: 5rem;
+	color:#202020;
+}
+.clients-bottom{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input-clients{
+	display: block;
+    width: 53rem;
+    border-radius: 3rem;
+    height: 4rem;
+    border: 1px solid #e3e3e3;
+    padding: 1.5rem 2rem;
+    font-size: 1.5rem;
+    margin: 3rem;
+}
+.coments-clients{
+	width: 53rem;
+    height: 15rem;
+    border-radius: 2rem;
+    border: 1px solid #e3e3e3;
+    padding: 1rem;
+	color:#e3e3e3;
+	font-size:1.8rem;
+}
+.button-clients{
+	border: none;
+    font-size: 1.2rem;
+    padding: 1.2rem 6rem;
+    border-radius: 2rem;
+    margin: 5rem;
+    color: #fff;
+    background: #efc248;
+}
+.map-img-clients {
+	width:97%;
+	margin-bottom:4rem;
+}
+.input-clients:focus{
+	outline:none;
+}
+.input-clients::-webkit-input-placeholder{
+	color:e3e3e3;
+}
+.coments-clients:focus{
+	outline:none;
+}
+.footer{
+	background-image:url(https://s8.uupload.ir/files/service_btvd.jpg);
+	width:100%;
+	color:white;
+	display: flex;
+    flex-direction: column;
+}
+.footer-top{
+	display: flex;
+    flex-direction: row;
+	justify-content: space-around;
+    margin-top: 6rem;
+}
+.about-site{
+	
+}
+.logo-footer{
+	margin-bottom: 1.6rem;
+}
+.discription-footer{
+	font-size: 1.2rem;
+    font-weight: 500;
+}
+.site-map{
+	
+}
+.title-option-footer{
+	font-size: 2rem;
+    font-weight: 500;
+	margin-bottom: 2.5rem;
+	margin-top: 1rem;
+}
+.option-home{
+	font-size: 1.1rem;
+	margin-bottom: 1.5rem;
+}
+.social-media{
+	
+}
+.discription-footer{
+	
+}
+.logo-social-media{
+	margin-top:2rem;
+}
+.contact-us{
+	
+}
+.address-company{
+	font-size: 1.2rem;
+}
+.footer-bottom{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+.border-footer{
+	margin-top:1rem;
+	width: 70%;
+    height: 1px;
+    background: #313648;
+	border-radius:10%;
+}
+.copyright-discription{
+	margin:2rem auto 1rem auto;
+	font-size: 1.2rem;
+}
+.iconi{
+	font-size: 2rem;
+    background: #ff008d;
+    padding: 0.4rem;
+    border-radius: 15rem;
+	width:2rem;
+	height:2rem;
+}
+.iconeha:hover {
+	color:#efc248;
+	cursor:pointer;
+	transition:0.3s;
+}
+.option-home:hover{
+	color:#efc248;
+	cursor:pointer;
+	transition:0.3s;
+}
